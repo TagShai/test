@@ -1,7 +1,7 @@
 function auth(login, password) {
-    if (login == 'login' && password == 'password') {
-        return "Good";
+    if (login == 'login') {
+        return "Yee";
     } else {
-        return "Mistake";
+        return "NotLikeThis";
     }
 }
